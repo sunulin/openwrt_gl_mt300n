@@ -1,0 +1,106 @@
+Package: lua-maxminddb
+Version: 0.2-1
+Depends: libc, lua, libmaxminddb
+Source: feeds/kenzok/lua-maxminddb
+SourceName: lua-maxminddb
+License: MIT
+Section: lang
+SourceDateEpoch: 1635306091
+Maintainer: fabled
+Architecture: mipsel_24kc
+Installed-Size: 2607
+Filename: lua-maxminddb_0.2-1_mipsel_24kc.ipk
+Size: 3314
+SHA256sum: 720d133a7af62a2c1dbf9e8b637a7893ad5a16d69963890584e845569ff797cb
+Description:  libmaxminddb bindings for lua
+
+Package: luci-app-bypass
+Version: 1.2-76
+Depends: libc, ipset, ip-full, iptables-mod-tproxy, dnsmasq-full, smartdns-le, coreutils, coreutils-base64, curl, tcping, chinadns-ng, lua, luci-compat, unzip, lua-maxminddb, shadowsocks-libev-ss-server, shadowsocks-libev-ss-local, shadowsocks-libev-ss-redir, shadowsocksr-libev-ssr-local, shadowsocksr-libev-ssr-redir, shadowsocksr-libev-ssr-server, simple-obfs, xray-core, trojan-plus, trojan-go, redsocks2, microsocks
+Source: feeds/kenzok/luci-app-bypass
+SourceName: luci-app-bypass
+Section: luci
+SourceDateEpoch: 1635306091
+Architecture: all
+Installed-Size: 2646914
+Filename: luci-app-bypass_1.2-76_all.ipk
+Size: 2465517
+SHA256sum: 5ee000da6593132e18cf8fdc0f2cbab2bd315ff9cbdd4df5ca69380b780cd792
+Description:  SS/SSR/Xray/Trojan/Trojan-Go/NaiveProxy/Socks5/Tun LuCI interface
+
+Package: luci-app-ssr-plus
+Version: 184-9
+Depends: libc, coreutils, coreutils-base64, dns2socks, dnsmasq-full, ipset, ip-full, iptables-mod-tproxy, lua, libuci-lua, microsocks, pdnsd-alt, tcping, resolveip, shadowsocksr-libev-ssr-check, uclient-fetch, shadowsocksr-libev-ssr-local, shadowsocksr-libev-ssr-redir
+Source: feeds/kenzok/luci-app-ssr-plus
+SourceName: luci-app-ssr-plus
+Section: luci
+SourceDateEpoch: 1635306091
+Architecture: all
+Installed-Size: 193886
+Filename: luci-app-ssr-plus_184-9_all.ipk
+Size: 194041
+SHA256sum: 4fcbb28322bb7ca90a9af39ff8f641243048ebb926d968b1c505397b01d410c6
+Description:  SS/SSR/V2Ray/Trojan/NaiveProxy/Socks5/Tun LuCI interface
+
+Package: luci-i18n-bypass-zh-cn
+Version: 1.2-76
+Depends: libc, luci-app-bypass
+Source: feeds/kenzok/luci-app-bypass
+SourceName: luci-i18n-bypass-zh-cn
+Section: luci
+SourceDateEpoch: 1635306091
+Architecture: all
+Installed-Size: 6338
+Filename: luci-i18n-bypass-zh-cn_1.2-76_all.ipk
+Size: 7196
+SHA256sum: 1f3509bbfba121bf7e476e041dd991164346b165c4033cbcb450916704ca0bda
+Description:  Translation for luci-app-bypass - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-ssr-plus-zh-cn
+Version: 184-9
+Depends: libc, luci-app-ssr-plus
+Source: feeds/kenzok/luci-app-ssr-plus
+SourceName: luci-i18n-ssr-plus-zh-cn
+Section: luci
+SourceDateEpoch: 1635306091
+Architecture: all
+Installed-Size: 6551
+Filename: luci-i18n-ssr-plus-zh-cn_184-9_all.ipk
+Size: 7412
+SHA256sum: c7080879d3518062655be6fe7a37c802fb6fefa4b08c567b64abe6264cda5071
+Description:  Translation for luci-app-ssr-plus - 简体中文 (Simplified Chinese)
+
+Package: smartdns-le
+Version: 2021.07.30-2
+Depends: libc, libpthread, libopenssl1.1
+Source: feeds/kenzok/smartdns-le
+SourceName: smartdns-le
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1635306091
+Maintainer: Nick Peng <pymumu@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 64169
+Filename: smartdns-le_2021.07.30-2_mipsel_24kc.ipk
+Size: 65046
+SHA256sum: f0a3ee8747d43870e034335d972b37b0d25efc09a06a3832b7e48ed2a30581fa
+Description:  SmartDNS is a local DNS server which accepts DNS query requests from local network clients,
+ gets DNS query results from multiple upstream DNS servers concurrently, and returns the fastest IP to clients.
+ Unlike dnsmasq's all-servers, smartdns returns the fastest IP. 
+
+Package: tcping
+Version: 0.3-1
+Depends: libc
+Source: feeds/kenzok/tcping
+SourceName: tcping
+License: GPL-2.0-only
+Section: net
+SourceDateEpoch: 1635306091
+Architecture: mipsel_24kc
+Installed-Size: 3411
+Filename: tcping_0.3-1_mipsel_24kc.ipk
+Size: 4124
+SHA256sum: 0bfee53593b39a00bfd91ff4435cb3c1d4dafc74b502ce379f29fd064bdc4d53
+Description:  tcping measures the latency of a tcp-connection
+
