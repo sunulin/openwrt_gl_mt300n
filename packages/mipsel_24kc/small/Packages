@@ -1,0 +1,108 @@
+Package: chinadns-ng
+Version: 1.0-beta.25-1
+Depends: libc, ipset
+License: AGPL-3.0-only
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 17351
+Filename: chinadns-ng_1.0-beta.25-1_mipsel_24kc.ipk
+Size: 18151
+SHA256sum: 88fb1feed8870571bcf3552f543dcadeae0355e611aa4d61ac6579194d266c75
+Description:  ChinaDNS next generation, refactoring with epoll and ipset.
+
+Package: shadowsocksr-libev-ssr-check
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+License: GPL-3.0
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 2411
+Filename: shadowsocksr-libev-ssr-check_2.5.6-9_mipsel_24kc.ipk
+Size: 3150
+SHA256sum: 06933e95a41123ec5f680b477997fb20197ee57691481ee267c5bc35f47e050b
+Description:  shadowsocksr-libev ssr-check
+
+Package: shadowsocksr-libev-ssr-local
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+License: GPL-3.0
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 57131
+Filename: shadowsocksr-libev-ssr-local_2.5.6-9_mipsel_24kc.ipk
+Size: 57691
+SHA256sum: 23124ab4efe575ac134d846e241ba89d8f172222094b66afbf7014f8ec4ad731
+Description:  shadowsocksr-libev ssr-local
+
+Package: shadowsocksr-libev-ssr-redir
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+License: GPL-3.0
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 50921
+Filename: shadowsocksr-libev-ssr-redir_2.5.6-9_mipsel_24kc.ipk
+Size: 51583
+SHA256sum: 4d6089ed5b4c8b7e9a53cb75dd9be95e18b7b0fd3f4835a91f67a1bc20a780ee
+Description:  shadowsocksr-libev ssr-redir
+
+Package: shadowsocksr-libev-ssr-server
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+License: GPL-3.0
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 58978
+Filename: shadowsocksr-libev-ssr-server_2.5.6-9_mipsel_24kc.ipk
+Size: 59523
+SHA256sum: 9cd45eaa19f8162a53c9761d3c594ba788981eeef3ae14067b7d28989b8056a6
+Description:  shadowsocksr-libev ssr-server
+
+Package: simple-obfs
+Version: 0.0.5-4
+Depends: libc, libpthread, libev
+License: GPL-3.0-or-later
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 27767
+Filename: simple-obfs_0.0.5-4_mipsel_24kc.ipk
+Size: 28535
+SHA256sum: 9a5fa994c6d3ba3f97f27ab46e411d9949fbebd7ff1e049a378cdc60c75c1181
+Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
+
+Package: trojan-go
+Version: 0.10.6-1
+Depends: libc
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 2916190
+Filename: trojan-go_0.10.6-1_mipsel_24kc.ipk
+Size: 2917510
+SHA256sum: d0d0ea55d5d37aadc1175bb571b616733353cd15276fd979215fb473c7d1fc2b
+Description:  An unidentifiable mechanism that helps you bypass GFW. It's compatible with original trojan with experimental features.
+
+Package: trojan-plus
+Version: 10.0.3-2
+Depends: libc, libpthread, libstdcpp6, libopenssl1.1, boost, boost-system, boost-program_options
+License: GPL-3.0
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 357083
+Filename: trojan-plus_10.0.3-2_mipsel_24kc.ipk
+Size: 357921
+SHA256sum: 286e44b8a2d6cb906bca32aea712ce4c608efb80683b3f53914ad15947be6121
+Description:  An unidentifiable mechanism that helps you bypass GFW. It's compatible with original trojan with experimental features.
+
+Package: xray-core
+Version: 1.5.0-1
+Depends: libc, ca-bundle
+License: MPL-2.0
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 3759030
+Filename: xray-core_1.5.0-1_mipsel_24kc.ipk
+Size: 3760635
+SHA256sum: 57187bc1fddbee5039aa3e59fde87809b49ee3325ef9654a94bb51710c8d5621
+Description:  Xray, Penetrates Everything. Also the best v2ray-core, with XTLS support. Fully compatible configuration.
+ It secures your network connections and thus protects your privacy.
+
